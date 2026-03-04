@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nithin U portfolio showcasing experience in software development, AI agents, and network engineering.">
     <title>Nithin U | Terminal</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <a href="#home" class="skip-link">Skip to main content</a>
 
     <header class="header">
         <a href="#home" class="logo">Nithin<span>_</span></a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class='bx bx-menu'></i>
+        </button>
         <nav class="navbar">
             <a href="#about">SYS.ABOUT</a>
             <a href="#experience">EXP.LOG</a>
@@ -19,108 +24,111 @@
         </nav>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <p class="sys-msg">> INITIALIZING USER PROFILE...</p>
-            <h1>Nithin U</h1>
-            <h3 class="glitch-text" data-text="Software Developer & Network Engineer">Software Developer & Network Engineer</h3>
-            <p>Bridging the gap between full-stack development, AI agents, and network engineering. Highly-motivated with a strong desire to take on new challenges and build scalable solutions.</p>
-            <div class="tech-stack">
-                <span>Java</span><span>Python</span><span>MERN Stack</span><span>MySQL</span><span>Cloud</span>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/nithin-u" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/nithin-u/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="mailto:nithin52.online@gmail.com"><i class='bx bx-envelope'></i></a>
-            </div>
-        </div>
-        <div class="home-img">
-            <div class="img-container">
-                <img src="images/nithin.jpg" alt="Nithin U">
-            </div>
-        </div>
-    </section>
-
-    <section class="experience" id="experience">
-        <h2 class="section-title">EXPERIENCE<span>.LOG</span></h2>
-        
-        <div class="timeline">
-            <div class="timeline-item hidden">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Internship Trainee</h3>
-                    <h4>Caze Labs, Bengaluru | Oct 2025 - Jan 2026</h4>
-                    <p>Set up and tested a Time-Series AI agent integrated with Prometheus for natural language querying of system metrics. Evaluated MCP-based AI agents using Agent Bench.</p>
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <p class="sys-msg">> INITIALIZING USER PROFILE...</p>
+                <h1>Nithin U</h1>
+                <h3 class="glitch-text" data-text="Software Developer & Network Engineer">Software Developer & Network Engineer</h3>
+                <p>Bridging the gap between full-stack development, AI agents, and network engineering. Highly-motivated with a strong desire to take on new challenges and build scalable solutions.</p>
+                <div class="tech-stack">
+                    <span>Java</span><span>Python</span><span>MERN Stack</span><span>MySQL</span><span>Cloud</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/nithin-u" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/nithin-u/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:nithin52.online@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
                 </div>
             </div>
-
-            <div class="timeline-item hidden">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Software Development Intern</h3>
-                    <h4>Kodnest Technologies, Bengaluru | Jan 2024 - Aug 2024</h4>
-                    <p>Acquired practical skills in Java, MySQL, Frontend Technology, and Manual Testing, contributing to real-world projects and learning directly from industry professionals.</p>
+            <div class="home-img">
+                <div class="img-container">
+                    <img src="images/nithin.png" alt="Nithin U">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="projects" id="projects">
-        <h2 class="section-title">PROJECTS<span>.EXE</span></h2>
-        
-        <div class="project-grid">
-            <div class="project-card hidden">
-                <h3>Hybrid Intrusion Detection System</h3>
-                <p>Designed a hybrid IDS combining Autoencoder-based anomaly detection with Random Forest and XGBoost for cloud security. Deployed using FastAPI with a REST API for real-time cloud inference.</p>
-                <div class="tags"><span>FastAPI</span><span>Machine Learning</span><span>Python</span></div>
-                <br>
-                <a href="INSERT_YOUR_LINK_HERE" class="neon-link" target="_blank">> VIEW_SOURCE</a>
-            </div>
+        <section class="experience" id="experience">
+            <h2 class="section-title">EXPERIENCE<span>.LOG</span></h2>
 
-            <div class="project-card hidden">
-                <h3>Stock Info India</h3>
-                <p>Developed a full-stack MERN application for tracking Indian penny stocks. Integrated WebSocket for real-time price simulation, JWT authentication, and deployed on Netlify and Render.</p>
-                <div class="tags"><span>MERN Stack</span><span>WebSocket</span><span>MongoDB</span></div>
-                <br>
-                <a href="https://github.com/nithin-u/stock-info" class="neon-link" target="_blank">> VIEW_SOURCE</a>
-            </div>
+            <div class="timeline">
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Internship Trainee</h3>
+                        <h4>Caze Labs, Bengaluru | Oct 2025 - Jan 2026</h4>
+                        <p>Set up and tested a Time-Series AI agent integrated with Prometheus for natural language querying of system metrics. Evaluated MCP-based AI agents using Agent Bench.</p>
+                    </div>
+                </div>
 
-            <div class="project-card hidden">
-                <h3>AI-based Intrusion Detection System</h3>
-                <p>Developed a home security system detecting unauthorized break-ins via sound recognition. Built a web application using Streamlit to display real-time alerts and notifications.</p>
-                <div class="tags"><span>Python</span><span>AI/ML</span><span>Streamlit</span></div>
-                <br>
-                <a href="https://github.com/nithin-u/-intrusion-detection-app" class="neon-link" target="_blank">> VIEW_SOURCE</a>
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development Intern</h3>
+                        <h4>Kodnest Technologies, Bengaluru | Jan 2024 - Aug 2024</h4>
+                        <p>Acquired practical skills in Java, MySQL, Frontend Technology, and Manual Testing, contributing to real-world projects and learning directly from industry professionals.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="education" id="about">
-        <h2 class="section-title">SYS<span>.EDUCATION</span></h2>
-        <div class="edu-container">
-            <div class="edu-box hidden">
-                <h3>Master of Technology (M.Tech.)</h3>
-                <p>Ramaiah Institute of Technology | Passout: 2026 (CGPA: 8.2)</p>
+        <section class="projects" id="projects">
+            <h2 class="section-title">PROJECTS<span>.EXE</span></h2>
+
+            <div class="project-grid">
+                <div class="project-card hidden">
+                    <h3>Hybrid Intrusion Detection System</h3>
+                    <p>Designed a hybrid IDS combining Autoencoder-based anomaly detection with Random Forest and XGBoost for cloud security. Deployed using FastAPI with a REST API for real-time cloud inference.</p>
+                    <div class="tags"><span>FastAPI</span><span>Machine Learning</span><span>Python</span></div>
+                    <br>
+                    <a href="#" class="neon-link" aria-label="Source link coming soon">> SOURCE_COMING_SOON</a>
+                </div>
+
+                <div class="project-card hidden">
+                    <h3>Stock Info India</h3>
+                    <p>Developed a full-stack MERN application for tracking Indian penny stocks. Integrated WebSocket for real-time price simulation, JWT authentication, and deployed on Netlify and Render.</p>
+                    <div class="tags"><span>MERN Stack</span><span>WebSocket</span><span>MongoDB</span></div>
+                    <br>
+                    <a href="https://github.com/nithin-u/stock-info" class="neon-link" target="_blank" rel="noopener noreferrer">> VIEW_SOURCE</a>
+                </div>
+
+                <div class="project-card hidden">
+                    <h3>AI-based Intrusion Detection System</h3>
+                    <p>Developed a home security system detecting unauthorized break-ins via sound recognition. Built a web application using Streamlit to display real-time alerts and notifications.</p>
+                    <div class="tags"><span>Python</span><span>AI/ML</span><span>Streamlit</span></div>
+                    <br>
+                    <a href="https://github.com/nithin-u/-intrusion-detection-app" class="neon-link" target="_blank" rel="noopener noreferrer">> VIEW_SOURCE</a>
+                </div>
             </div>
-            <div class="edu-box hidden">
-                <h3>Bachelor of Engineering (B.E.)</h3>
-                <p>Sri Siddhartha Institute of Technology | Passout: 2023 (CGPA: 7.7)</p>
+        </section>
+
+        <section class="education" id="about">
+            <h2 class="section-title">SYS<span>.EDUCATION</span></h2>
+            <div class="edu-container">
+                <div class="edu-box hidden">
+                    <h3>Master of Technology (M.Tech.)</h3>
+                    <p>Ramaiah Institute of Technology | Passout: 2026 (CGPA: 8.2)</p>
+                </div>
+                <div class="edu-box hidden">
+                    <h3>Bachelor of Engineering (B.E.)</h3>
+                    <p>Sri Siddhartha Institute of Technology | Passout: 2023 (CGPA: 7.7)</p>
+                </div>
+                <div class="edu-box hidden">
+                    <h3>12th Grade (PUC)</h3>
+                    <p>Navkis Residential PU College | Passout: 2019 (86.66%)</p>
+                </div>
+                <div class="edu-box hidden">
+                    <h3>10th Grade (SSLC)</h3>
+                    <p>Jupiter Public School | Passout: 2017 (95.52%)</p>
+                </div>
             </div>
-            <div class="edu-box hidden">
-                <h3>12th Grade (PUC)</h3>
-                <p>Navkis Residential PU College | Passout: 2019 (86.66%)</p>
-            </div>
-            <div class="edu-box hidden">
-                <h3>10th Grade (SSLC)</h3>
-                <p>Jupiter Public School | Passout: 2017 (95.52%)</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer id="contact">
         <p>> OPEN COMM LINK...</p>
         <p>EMAIL: <a href="mailto:nithin52.online@gmail.com" class="neon-link">nithin52.online@gmail.com</a></p>
         <p>PHONE: <a href="tel:+918088073475" class="neon-link">+91 8088073475</a></p>
+        <p>© <span id="year"></span> Nithin U</p>
     </footer>
 
     <script src="script.js"></script>
